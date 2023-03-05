@@ -1,0 +1,281 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #817D92;
+    text-align: center;
+}
+
+.charter-input {
+    height: 64px;
+    width: 343px;
+    border-radius: 0px;
+    background: #24232C;
+    margin: 16px;
+    border: none;
+    background-image: url(./starter-code/assets/images/icon-copy.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #E6E5EA;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.info-box {
+    height: 423px;
+    width: 343px;
+    border-radius: 0px;
+    background: #24232C;
+    margin: 16px;
+    overflow: hidden;
+}
+
+.box-feader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-text {
+    font-family: 'JetBrains Mono' monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E6E5EA;
+    margin: 16px;
+}
+
+.space-for-number {
+    height: 32px;
+    width: 29px;
+    border-radius: nullpx;
+    margin: 16px;
+}
+
+#progress {
+    margin: 16px;
+    width: 300px;
+}
+
+.boxes {
+    margin: 16px;
+    display: flex;
+    height: 600px;
+}
+
+.chack img {
+    margin-top: -3px;
+    display: none;
+}
+
+.chek-img {
+    height: 15px;
+    width: 15px;
+
+}
+
+
+.chak-box {
+    border: 2px solid #E6E5EA;
+    height: 19px;
+    width: 19px;
+    margin-top: 12px;
+}
+
+.texts {
+    line-height: 30px;
+    margin-top: -10px;
+}
+
+.box-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E6E5EA;
+}
+
+.strenght {
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 311px;
+    border-radius: 0px;
+    background: #18171F;
+    margin: 16px;
+    align-items: center;
+    transform: translate(16px, -170px);
+}
+
+.str-text {
+    font-family: 'JetBrains Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #817D92;
+    margin: 16px;
+}
+
+.indicator {
+    margin: 16px;
+    display: flex;
+
+}
+
+.progress-bar{
+    height: 7px;
+    width: 0px;
+    margin-left: 16px;
+    border-radius: 3px;
+    transition: 6s;
+}
+
+.indicator input {
+    width: 10px;
+    height: 28px;
+    margin: 3px;
+}
+
+.generate-tbn {
+    height: 56px;
+    width: 311px;
+    margin: 0 16px 0 16px;
+    border-radius: 0px;
+    background: rgba(164, 255, 175, 1);
+    transform: translate(16px, -173px);
+    cursor: pointer;
+}
+
+.level {
+    height: 28px;
+    width: 80px;
+}
+
+.space-for-number {
+    background: transparent;
+    border: none;
+    color: #817D92;
+    font-weight: 800;
+    font-size: 18px;
+    transform: translateY(-7px);
+}
+
+.reload{
+    height: 56px;
+    width: 311px;
+    margin: 0 16px 0 16px;
+    border-radius: 0px;
+    background: rgba(164, 255, 175, 1);
+    transform: translate(16px, -165px);
+    cursor: pointer;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+    .header {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #817D92;
+        margin-right: 350px;
+
+    }
+
+ 
+    .main{
+        display: block;
+        margin-left: 30%;
+    }
+
+    .charter-input {
+        height: 80px;
+        width: 540px;
+        border-radius: 0px;
+    }
+
+    .info-box {
+        height: 548px;
+        width: 540px;
+        border-radius: 0px;
+    }
+
+    .chack {
+        margin-left: 36px;
+    }
+
+    .texts {
+        margin-left: 36px;
+    }
+
+    .box-text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 36px;
+    }
+
+    .space-for-number {
+        background: transparent;
+        border: none;
+        color: #817D92;
+        transform: translateY(-7px);
+    }
+
+    .strenght {
+        height: 72px;
+        width: 476px;
+        left: 0px;
+        border-radius: 0px;
+        margin-left: 36px;
+        transform: translate(12px, -250px);
+    }
+
+    .level {
+        height: 28px;
+        margin-left: 35px;
+    }
+
+    .generate-tbn {
+        width: 476px;
+        height: 65px;
+        margin-left: 36px;
+        cursor: pointer;
+        transform: translate(12px, -255px);
+    }
+
+    .reload{
+        width: 476px;
+        height: 65px;;
+        margin: 0 16px 0 36px;
+        border-radius: 0px;
+        background: rgba(164, 255, 175, 1);
+        transform: translate(16px, -165px);
+        cursor: pointer;
+        transform: translate(12px, -250px);
+    }
+
+   
+}
+

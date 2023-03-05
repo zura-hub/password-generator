@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  
+  <div class="main">
+    <h1 class="header">Password Generator</h1>
+ 
+
+  <input type="text" class="charter-input">
+
+
+  <div class="info-box">
+    <div class="box-feader">
+      <h1 class="box-text">Character Length</h1>
+      <input readonly type="text" class="space-for-number">
+    </div>
+
+    
+    <div class="progress-bar"></div>
+
+    <div class="boxes">
+      <div class="chack">
+        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+      </div>
+
+      <div class="texts">
+        <h1 class="box-text">Include Uppercase Letters</h1>
+        <h1 class="box-text">Include Lowercase Letters</h1>
+        <h1 class="box-text">Include Numbers</h1>
+        <h1 class="box-text">Include Symbols</h1>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div class="strenght">
+    <h1 class="str-text">STRENGTH</h1>
+
+    <input type="text" class="level">
+
+    <div class="indicator">
+      <input readonly type="text" name="" class="text" id="">
+      <input readonly type="text" name="" class="text" id="">
+      <input readonly type="text" name="" class="text" id="">
+      <input readonly type="text" name="" class="text" id="">
+    </div>
+  </div>
+
+  <button onclick="generateStrongPassword()" class="generate-tbn">GENERATE <img src="./starter-code/assets/images/icon-arrow-right.svg" alt=""> </button>
+  
+
+  <button id="clear-button" class="reload">
+    Clear
+</button>
+  </div>
+
+
+  <!-- script -->
+
+  <script src="js.js"></script>
+</body>
+
+</html>
