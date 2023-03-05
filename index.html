@@ -13,61 +13,62 @@
 </head>
 
 <body>
-  
+
   <div class="main">
     <h1 class="header">Password Generator</h1>
- 
-
-  <input type="text" class="charter-input">
 
 
-  <div class="info-box">
-    <div class="box-feader">
-      <h1 class="box-text">Character Length</h1>
-      <input readonly type="text" class="space-for-number">
-    </div>
+    <input type="text" class="charter-input">
 
-    
-    <div class="progress-bar"></div>
 
-    <div class="boxes">
-      <div class="chack">
-        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
-        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
-        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
-        <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+    <div class="info-box">
+      <div class="box-feader">
+        <h1 class="box-text">Character Length</h1>
+        <input readonly type="text" class="space-for-number">
       </div>
 
-      <div class="texts">
-        <h1 class="box-text">Include Uppercase Letters</h1>
-        <h1 class="box-text">Include Lowercase Letters</h1>
-        <h1 class="box-text">Include Numbers</h1>
-        <h1 class="box-text">Include Symbols</h1>
+
+      <div class="progress-bar"></div>
+
+      <div class="boxes">
+        <div class="chack">
+          <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+          <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+          <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+          <div class="chak-box"><img class="chek-img" src="./starter-code/assets/images/icon-check.svg" alt=""> </div>
+        </div>
+
+        <div class="texts">
+          <h1 class="box-text">Include Uppercase Letters</h1>
+          <h1 class="box-text">Include Lowercase Letters</h1>
+          <h1 class="box-text">Include Numbers</h1>
+          <h1 class="box-text">Include Symbols</h1>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="strenght">
+      <h1 class="str-text">STRENGTH</h1>
+
+      <input type="text" class="level">
+
+      <div class="indicator">
+        <input readonly type="text" name="" class="text" id="">
+        <input readonly type="text" name="" class="text" id="">
+        <input readonly type="text" name="" class="text" id="">
+        <input readonly type="text" name="" class="text" id="">
       </div>
     </div>
 
-    
-  </div>
+    <button onclick="generateStrongPassword()" class="generate-tbn">GENERATE <img
+        src="./starter-code/assets/images/icon-arrow-right.svg" alt=""> </button>
 
-  <div class="strenght">
-    <h1 class="str-text">STRENGTH</h1>
 
-    <input type="text" class="level">
-
-    <div class="indicator">
-      <input readonly type="text" name="" class="text" id="">
-      <input readonly type="text" name="" class="text" id="">
-      <input readonly type="text" name="" class="text" id="">
-      <input readonly type="text" name="" class="text" id="">
-    </div>
-  </div>
-
-  <button onclick="generateStrongPassword()" class="generate-tbn">GENERATE <img src="./starter-code/assets/images/icon-arrow-right.svg" alt=""> </button>
-  
-
-  <button id="clear-button" class="reload">
-    Clear
-</button>
+    <button id="clear-button" class="reload">
+      Clear
+    </button>
   </div>
 
 
